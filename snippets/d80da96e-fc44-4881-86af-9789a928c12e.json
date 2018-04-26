@@ -1,0 +1,15 @@
+{
+  "uuid": "d80da96e-fc44-4881-86af-9789a928c12e",
+  "name": "MapToId",
+  "description": "Maps Collection of Objects to it\u0027s IDs",
+  "extraSearchTerms": [
+    "id",
+    "map",
+    "stream"
+  ],
+  "tags": [],
+  "code": "${list:newType(java.util.List)}\u003c${long:newType(java.lang.Long)}\u003e ${iterable}Ids${cursor} \u003d ${iterable}.stream()//\r\n.map(item-\u003e item.getId())//\r\n.collect(${collectors:newType(java.util.stream.Collectors)}.toList());\r\n${cursor}\r\n",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

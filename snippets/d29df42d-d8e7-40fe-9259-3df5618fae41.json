@@ -1,0 +1,16 @@
+{
+  "uuid": "d29df42d-d8e7-40fe-9259-3df5618fae41",
+  "name": "addListener",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [
+    "add",
+    "listener",
+    "property",
+    "pon"
+  ],
+  "code": ".addListener((p, o, n) -\u003e {\r\n${cursor}\r\n});\r\n",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

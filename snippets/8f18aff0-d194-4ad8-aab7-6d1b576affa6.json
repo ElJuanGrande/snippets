@@ -1,0 +1,13 @@
+{
+  "uuid": "8f18aff0-d194-4ad8-aab7-6d1b576affa6",
+  "name": "case - statement",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [
+    "case"
+  ],
+  "code": "case ${cursor}:\r\n\r\nbreak;",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

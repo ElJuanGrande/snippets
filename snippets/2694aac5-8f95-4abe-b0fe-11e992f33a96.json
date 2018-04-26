@@ -1,0 +1,14 @@
+{
+  "uuid": "2694aac5-8f95-4abe-b0fe-11e992f33a96",
+  "name": "case - return",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [
+    "caser",
+    "return"
+  ],
+  "code": "case ${cursor}:\r\nreturn ;",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": []
+}

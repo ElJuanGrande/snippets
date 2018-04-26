@@ -1,0 +1,17 @@
+{
+  "uuid": "c5e3ce85-65d1-4fc2-b60a-47f154119a9e",
+  "name": "GroupBy",
+  "description": "",
+  "extraSearchTerms": [
+    "stream",
+    "group",
+    "grouping",
+    "collector",
+    "by"
+  ],
+  "tags": [],
+  "code": "${map:newType(java.util.Map)}\u003c?,${list:newType(java.util.List)}\u003c${iterable_type}\u003e\u003e groupedBy \u003d ${iterable}.stream()//\r\n.collect(${collectors:newType(java.util.stream.Collectors)}.groupingBy(${iterable_element} -\u003e ${iterable_element}.get${cursor}));",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
